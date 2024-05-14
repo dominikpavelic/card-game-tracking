@@ -1,0 +1,40 @@
+{
+    "expo": {
+        "name": "bela",
+        "slug": "bela",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/zelje.png",
+        "userInterfaceStyle": "light",
+        "splash": {
+            "image": "./assets/zelje.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/zelje.png",
+                "backgroundColor": "#ffffff"
+            },
+            "softwareKeyboardLayoutMode": "pan",
+            "package": "com.dominikpavelic.bela"
+        },
+        "scheme": "bela",
+        "web": {
+            "favicon": "./assets/zelje.png"
+        },
+        "plugins": ["expo-router"],
+        "extra": {
+            "router": {
+                "origin": false
+            },
+            "eas": {
+                "projectId": "f12fe62c-6e51-4806-bd7e-5b87525b9700"
+            }
+        }
+    }
+}
